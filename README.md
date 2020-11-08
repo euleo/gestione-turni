@@ -1,6 +1,6 @@
 # gestione-turni
 
-**Database
+**Database**
 
 MySQL
 
@@ -9,7 +9,7 @@ Creare un database chiamato turniDB
 Inserire le credenziali di mysql nel file src/main/resources/application.properties
 
 
-**Esempi di chiamate
+**Esempi di chiamate**
 
 Aggiungere un autista http://localhost:8080/api/autista
 
