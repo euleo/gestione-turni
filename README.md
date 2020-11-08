@@ -1,21 +1,25 @@
 # gestione-turni
 
 Database: mysql
+
 Creare un database chiamato turniDB 
-Inserire le credenziali di mysql nel file
-src/main/resources/application.properties
+
+Inserire le credenziali di mysql nel file src/main/resources/application.properties
 
 
-Aggiungere un autista
-http://localhost:8080/api/autista
+Aggiungere un autista http://localhost:8080/api/autista
+
+Body raw
+
 {
 	"nome" : "Myname",
 	"cognome" : "Mysurname"
 }
 
-Aggiungere un nuovo turno
-http://localhost:8080/api/turni
+Aggiungere un nuovo turno http://localhost:8080/api/turni
+
 Body raw
+
 {
     "giorni": [
         "2020-11-04",
@@ -32,8 +36,6 @@ Body raw
     }
 }
 
-Rimuovere un turno
-http://localhost:8080/api/turni/{id_turno}
+Rimuovere un turno http://localhost:8080/api/turni/{id_turno}
 
-Rimuovere tutti i turni dato un autista
-http://localhost:8080/api/turni/autista/{id_autista}
+Rimuovere tutti i turni dato un autista http://localhost:8080/api/turni/autista/{id_autista}
