@@ -26,13 +26,13 @@ Body raw
 
 {
     "giorni": [
-        "2020-11-04",
-        "2020-11-05"
+        "2020-11-06",
+        "2020-11-07"
     ],
-	"luogoInizio" : "Firenze",
-	"luogoFine" : "Calenzano",
+	"luogoInizio" : "luogoinizio",
+	"luogoFine" : "luogofine",
 	"lunghezza" : 10,
-    "durata" : 120,
+    "durata" : 360,
     "ora_inizio": "08:00:00",
     "ora_fine": "14:00:00",
     "autista": {
